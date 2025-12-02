@@ -58,7 +58,7 @@ fn func2(ranges: Vec<&str>){
                 j+=1;
                 if j>=len{
                         println!("Close to Repeat: {num}");
-                        if i % (increment-1) == 0 || increment==2{
+                        if i % (increment-1) == 0 {
                         println!("Actual Repeat: {num}");
                         runsum+=num;
                         continue 'numloop;
